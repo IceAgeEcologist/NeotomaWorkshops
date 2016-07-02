@@ -119,7 +119,7 @@ dir.create('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2/Cores/Marion')
 setwd('C:/Jack/Datasets/AA_Software/Bacon/winBacon_2.2/Cores/Marion')
 
 #get the geochronological data for both Marion Lake and Marion Landfill
-get_geochron(marion.meta.site, verbose = TRUE)
+marion.geochron <- get_geochron(marion.meta.site, verbose = TRUE)
 
 #RAN OUT OF TIME HERE - BELOW CODE NOT DONE YET
 
